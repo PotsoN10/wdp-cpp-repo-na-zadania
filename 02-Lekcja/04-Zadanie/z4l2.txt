@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sekundy;
+    cout << "Podaj liczbe sekund: ";
+    cin >> sekundy;
+    cout << "Pelne minuty: " << sekundy / 60 << endl;
+    cout << "Pozostale sekundy: " << sekundy % 60 << endl;
+    return 0;
+}
