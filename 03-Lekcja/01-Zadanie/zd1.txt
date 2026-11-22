@@ -1,0 +1,17 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cin >> a >> b;
+
+    if (a > b)
+        cout << a << " > " << b << "\nWieksza: " << a << "\nMniejsza: " << b;
+    else if (a < b)
+        cout << a << " < " << b << "\nWieksza: " << b << "\nMniejsza: " << a;
+    else
+        cout << a << " == " << b << "\nLiczby sa rowne";
+
+    return 0;
+}
